@@ -1,0 +1,46 @@
+.introProjects{
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.project-group{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    grid-gap: 2em;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.project-group-title{
+    margin: 30px auto;
+    width: fit-content;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.project-title{
+    font-size: larger;
+}
+
+.project-set{
+    gap: 30px;
+    border-radius: 10px;
+    width: 30em;
+    height: 100%;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.project-set img{
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+}

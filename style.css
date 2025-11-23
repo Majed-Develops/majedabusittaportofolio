@@ -30,6 +30,7 @@ body{
     transform: scale(1.08);
 }
 
+
 nav{
     width: 100vw;
     height: 1vh;
@@ -42,9 +43,8 @@ nav{
     justify-content: space-around;
     align-items: center;
     z-index: 1;
+    transition: 0.3s;
 }
-
-
 
 
 header a{
@@ -57,12 +57,14 @@ a{
     text-decoration: none;
 }
 
+nav a{
+    transition: 0.5s;
+}
+
 nav a:hover{
     cursor: pointer;
     position: relative;
-    bottom: 5px;
-    transition: 0.3s;
-    opacity: 50%;
+    transform: translateY(-5px);
 }
 
 
@@ -70,21 +72,24 @@ a:visited{
     text-decoration: none;
 }
 
+.name{
+    display: flex;
+    align-items: center;
+  justify-content: center;
+}
 
 
 h1 {
-    position: relative;
-    left: 35%;
-    font-size: 3rem;
-    width: max-content;
-}
-
-h1:hover{
-    opacity: 50%;
     transition: 0.5s;
     cursor: pointer;
+}
+
+
+.greetings:hover{
     transform: scale(1.1);
 }
+
+
 
 .skillsBox{
     border-radius: 10px;
@@ -98,12 +103,15 @@ h1:hover{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+    transition: 0.5s;
+    cursor: pointer;
 }
+
 
 .skillsBox:hover{
     transform: scale(1.1);
-    transition: 0.5s;
 }
+
 
 .skillsBox div{
     border-radius: 10px;
@@ -114,25 +122,27 @@ h1:hover{
     position: relative;
     font-size: large;
     display: inline-block;
+    transition: 0.5s;
+    cursor: pointer;
 }
+
 
 .skillsBox div:hover{
     transform: scale(1.1);
-    transition: 0.5s;
 }
 
-.skillsBox div:active{
-    transform: rotate(360deg); 
-}
 
 .skillTitle{
     text-align: center;
+    transition: 0.5s;
 }
+
 
 .skillExplain{
     padding: 1.4rem;
     font-size: smaller;
 }
+
 
 .introInformation{
     position: relative;
@@ -141,7 +151,9 @@ h1:hover{
     left: 15%;
     padding: 20px;
     margin: 20px;
+    border-radius: 10px;
 }
+
 
 .contactInfo{
     display: flex;
@@ -149,11 +161,15 @@ h1:hover{
     align-items: center;
 }
 
+
 .gmailBtn{
     padding: 0.4rem;
     border-radius: 10px;
-
+    transition: 0.5s;
+    cursor:pointer;
 }
+
+
 svg {
   width: 24px;
   height: 24px;
@@ -163,6 +179,8 @@ svg {
     padding: 0.54em;
     border-radius: 10px;
     text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .summary{
@@ -173,274 +191,3 @@ svg {
     margin: 20px;
     padding: 20px;
 }
-
-.aboutLink{
-    text-decoration: underline;
-}
-
-body.lightTheme{
-    background: linear-gradient(45deg, coral, salmon);
-    transition: 0.3s;
-}
-
-body.lightTheme #themeToggleButton{
-    background-color: rgb(122, 86, 39);
-    border: 1px solid black;
-    color: white;
-}
-
-body.lightTheme #themeToggleButton:hover{
-    background-color: rgb(85, 60, 28);
-    border: 1px solid black;
-    transition: 0.3s;
-    
-}
-
-body.lightTheme #themeToggleButton:active{
-    background-color: #222;
-}
-
-body.lightTheme nav{
-    background-color: burlywood;
-    border-bottom: 2px solid white;
-}
-
-body.lightTheme header a{
-    color: black;
-    text-decoration: none;
-
-}
-
-body.lightTheme #homePage{
-    color: white;
-}
-
-
-body.lightTheme a:hover{
-    color: brown;
-}
-
-
-
-body.lightTheme a:visited{
-    color: black;
-    text-decoration: none;
-}
-
-body.lightTheme h1{
-    color: white;
-}
-
-
-body.lightTheme .skillsBox{
-    background-color: rgb(219, 182, 79);
-    border: 2px solid brown;
-}
-
-body.lightTheme .skillTitle{
-    border-bottom: 1px solid white;
-}
-
-body.lightTheme .skillsBox div{
-    border: 2px solid burlywood;
-    background-color: saddlebrown;
-    color: white;
-    
-}
-
-body.lightTheme .skillsBox:hover{
-    opacity: 80%;
-    transition: 0.5s;
-}
-
-
-body.lightTheme .skillsBox div:hover{
-    background-color: coral;
-    transition: 0.5s;
-    cursor: pointer;
-    border: 2px solid black;
-}
-
-body.lightTheme .skillTitle:hover{
-    border-bottom: 2px solid black;
-    transition: 0.5s;
-}
-
-body.lightTheme .introInformation{
-    background-color: rgb(211, 196, 131);
-    border: 2px solid #222;
-    border-radius: 10px;
-    text-align: center;    
-}
-
-body.lightTheme .gmailBtn{
-    background-color: rgb(122, 86, 39);
-    color: black;
-}
-
-body.lightTheme .gmailBtn:hover{
-    background-color: rgb(85, 60, 28);
-    color: white;
-    transition: 0.3s;
-}
-
-body.lightTheme .gitHubBtn{
-    background-color: rgb(122, 86, 39);
-    color: black;
-}
-
-body.lightTheme .gitHubBtn:hover{
-    background-color: rgb(85, 60, 28);
-    color: white;
-    transition: 0.3s;
-}
-
-body.lightTheme #aboutLink{
-    color: brown;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-
-body.lightTheme #aboutLink:hover{
-    color: white;
-    transition: 0.3s;
-}
-
-body.lightTheme #aboutLink:visited{
-    color: brown;
-}
-
-body.lightTheme #aboutLink:visited:hover{
-    color: coral;
-}
-
-body.lightTheme .summary{
-    background-color: rgb(211, 196, 131);
-    border: 2px solid #222;
-}
-
-body.darkTheme{
-    background-color: #222;
-}
-
-body.darkTheme h1:hover{
-    color: grey;
-}
-
-body.darkTheme nav{
-    background-color: #333;
-    transition: 0.3s;
-    border-bottom: 2px solid grey;
-}
-
-
-body.darkTheme nav a{
-    color: black;
-    text-decoration: none;
-}
-
-body.darkTheme nav a:hover{
-    color: white;
-    transition: 0.3s;
-}
-
-body.darkTheme nav a:visited{
-    color: black;
-    text-decoration: none;
-}
-
-body.darkTheme nav a:visited:hover{
-    color: white;
-    transition: 0.3s;
-}
-
-
-body.darkTheme #homePage{
-    color: white;
-}
-
-
-body.darkTheme #themeToggleButton{
-    background-color: darkslategrey;
-    border: 1px solid black;
-}
-
-body.darkTheme #themeToggleButton:hover{
-    background-color: grey;
-    border: 1px solid black;
-    transition: 0.3s;
-}
-
-body.darkTheme .introInformation{
-    background-color: darkslategrey;
-    border: 2px solid black;
-    border-radius: 10px;
-}
-
-body.darkTheme .gmailBtn{
-    background-color: darkslategrey;
-    border: 1px solid black;
-    color: white;
-}
-
-body.darkTheme .gmailBtn:hover{
-    background-color: grey;
-    border: 1px solid black;
-    transition: 0.3s;
-}
-
-body.darkTheme .gitHubBtn{
-    background-color: darkslategrey;
-    border: 1px solid black;
-    color: white;
-}
-
-body.darkTheme .gitHubBtn:hover{
-    background-color: grey;
-    border: 1px solid black;
-    transition: 0.3s;
-}
-
-body.darkTheme .skillsBox{
-    background-color: #333;
-    border: 2px solid black;
-}
-
-body.darkTheme .skillsBox div{
-    background-color: darkslategrey;
-    border: 2px solid black;
-    color: whitesmoke;
-}
-
-body.darkTheme .skillsBox div:hover{
-    background-color: grey;
-    color: black;
-}
-
-body.darkTheme .summary{
-    background-color: darkslategrey;
-    border: 2px solid black;
-}
-
-body.darkTheme #aboutLink{
-    color: white;
-    text-decoration: underline;
-}
-
-body.darkTheme #aboutLink:hover{
-    color: grey;
-    transition: 0.3s;
-}
-
-
-
-body.deepTheme{
-    background-color: crimson;
-    transition: 0.3s;
-}
-
-body.deepTheme #themeToggleButton{
-    background-color: dodgerblue;
-}
-

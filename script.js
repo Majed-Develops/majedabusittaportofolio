@@ -1,69 +1,55 @@
+// Theme modes
+
+
+const savedTheme = localStorage.getItem("theme");
+
 const themeToggleBtn = document.getElementById("themeToggleButton");
-let isDark = false;
-let isDeep = false;
-let isLight = false;
+
+let currentTheme = savedTheme ? savedTheme : "lightTheme";
+
+document.body.classList = savedTheme;
+
+themeToggleBtn.textContent = savedTheme.replace("Theme", " theme");
+
+
+
 
 
 
 themeToggleBtn.addEventListener("click", () => {
-    if(!isDark && !isDeep){
-        isDark = true;
-        isDeep = false;
-        document.body.classList = 'deepTheme';
-        themeToggleBtn.textContent = "Deep Theme";
-        console.log("Theme changed to deep theme");
-    }else if(!isDeep && isDark){
-        isDeep = true;
-        isDark = false;
-        document.body.classList = 'darkTheme';
-        themeToggleBtn.textContent = "Dark Theme";
-        console.log("Theme changed to dark theme");
-    }else{
-        isDark = false;
-        isDeep = false;
-        document.body.classList = 'lightTheme';
-        themeToggleBtn.textContent = "Light Theme";
-        console.log("Theme changed to light theme");
+   switch(currentTheme){
+        case "lightTheme": currentTheme = "deepTheme"; break;
+        case "deepTheme": currentTheme = "copybookTheme"; break;
+        case "copybookTheme": currentTheme = "darkTheme"; break;
+        case "darkTheme": currentTheme = "lightTheme"; break;
+    }
+
+
+    document.body.classList = currentTheme;
+    themeToggleBtn.textContent = currentTheme.replace("Theme", " theme");
+    localStorage.setItem("theme", currentTheme);
+    
+});
+
+
+// Active nav links color
+
+
+let links = document.querySelectorAll(".headerElements");
+
+links.forEach(link => {
+    if(link.href.includes(location.pathname)){
+        link.classList.add("active");
     }
 });
 
 
-// let svelteBoxBtn = document.getElementById("svelteBtn");
-// let htmlcssjsBtn = document.getElementById("htmlcssjsBtn");
-// let promptingBtn = document.getElementById("promptingBtn");
-// let rotation = 0;
-
-// svelteBoxBtn.addEventListener("click", () => {
-//     console.log(`Box 1 is rotating ${rotation} degrees!`);
-//     rotation += 360;
-//     svelteBoxBtn.style.transform = `rotate(${rotation}deg)`;
-// });
-
-// htmlcssjsBtn.addEventListener("click", () => {
-//     console.log(`Box 2 is rotating ${rotation} degrees!`);
-//     rotation += 360;
-//     htmlcssjsBtn.style.transform = `rotate(${rotation}deg)`;
-// });
-
-// promptingBtn.addEventListener("click", () => {
-//     console.log(`Box 3 rotating ${rotation} degrees!`);
-//     rotation += 360;
-//     promptingBtn.style.transform = `rotate(${rotation}deg)`;
-// })
-
+// github button
 
 let githubBtn = document.getElementById("githubBtn");
 
-
-
 githubBtn.addEventListener("click", () => {
     console.log("Github profile preview");
-    window.location.assign("https://github.com/Majed-Develops");
-})
-
-function displayTest(){
-document.getElementById("demo").innerHTML = "HELLO BRO!";
-}
-
-document.addEventListener("click",displayTest);
+    window.open("https://github.com/Majed-Develops");
+});
 

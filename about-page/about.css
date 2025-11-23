@@ -1,5 +1,44 @@
 body{
-    background: linear-gradient(45deg, chocolate, brown);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     max-width: 100%;
 }
+
+li{
+    line-height: 2.5;
+}
+
+ol{
+    line-height: 2.0;
+}
+
+ul{
+    line-height: 2.0;
+}
+
+.introAbout{
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.skill-set{
+    border-radius: 10px;
+    width: 40vw;
+    margin: 20px;
+    padding: 20px;
+    height: fit-content
+}
+
+
+.skill-group{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.aboutLink{
+    text-decoration: underline;
+}
+
+

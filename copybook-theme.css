@@ -1,0 +1,156 @@
+.copybookTheme{
+    background-image: url("/images/lined-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.copybookTheme #themeToggleButton{
+    background-color: yellow;
+    transition: 0.5s;
+}
+
+
+.copybookTheme #themeToggleButton:hover{
+    background-color: gold;
+}
+
+
+.copybookTheme nav{
+    background-color: wheat;
+    border-bottom: 2px solid black;
+}
+
+.copybookTheme nav a{
+    color: black;
+}
+
+.copybookTheme nav a.active{
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.copybookTheme nav a:hover{
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+.copybookTheme nav a:active{
+    background-color: goldenrod;
+}
+
+.copybookTheme nav a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.copybookTheme nav a:visited:hover{
+    background-color: yellow;
+    color: black;
+}
+
+/* links color add note */
+
+.copybookTheme h1:hover{
+    color: red;
+}
+
+.copybookTheme .skillsBox{
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.copybookTheme .skillTitle{
+    border-bottom: 2px solid white;
+}
+
+.copybookTheme .skillsBox .svelte:hover .skillTitle{
+    border-bottom: 2px solid blue;
+}
+
+.copybookTheme  .skillsBox .htmlcssjs:hover .skillTitle{
+    border-bottom: 2px solid blue;
+}
+
+.copybookTheme .skillsBox .prompting:hover .skillTitle{
+    border-bottom: 2px solid blue;
+}
+
+.copybookTheme .skillsBox div{
+    border: 2px solid white;
+    background-color: lightseagreen;
+}
+
+.copybookTheme .skillsBox div:hover{
+    border: 2px solid green;
+}
+
+.copybookTheme .skillsBox div:hover{
+    background-color: lightblue;
+    border: 2px solid blue;
+}
+
+.copybookTheme .skillTitle:hover{
+    border-bottom: 2px solid blue;
+}
+
+.copybookTheme .introInformation{
+    background-color: lightsteelblue;
+    border: 2px solid cadetblue;
+}
+
+.copybookTheme .gmailBtn{
+    background-color: cadetblue;
+    border: 2px solid lightsteelblue;
+    color: white;
+}
+
+.copybookTheme .gmailBtn:hover{
+    background-color: steelblue;
+}
+
+.copybookTheme .gitHubBtn{
+    background-color: cadetblue;
+    border: 2px solid lightsteelblue;
+    color: white;
+}
+
+.copybookTheme .gitHubBtn:hover{
+    background-color: steelblue;
+}
+
+
+.copybookTheme .summary{
+    background-color: lightsteelblue;
+    border: 2px solid cadetblue;
+}
+
+/* About Page */
+
+.copybookTheme .introAbout{
+    background-color: lightseagreen;
+    border: 2px solid white;
+}
+
+
+.copybookTheme .skill-set{
+    background-color: lightsteelblue;
+    border: 2px solid cadetblue;
+}
+
+/* Projects Page */
+
+.copybookTheme .introProjects{
+    background-color: lightsteelblue;
+    border: 2px solid cadetblue;
+}
+
+
+.cobybookTheme .projects .project-group{
+    background-color: black !important;
+}
+
+.copybookTheme .project-set{
+    background-color: lightgreen;
+    border: 2px solid slateblue;
+}

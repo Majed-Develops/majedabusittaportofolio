@@ -1,0 +1,166 @@
+.lightTheme{
+    background: linear-gradient(45deg, coral, salmon);
+    transition: 0.3s;
+}
+
+.lightTheme #themeToggleButton{
+    background-color: rgb(122, 86, 39);
+    border: 1px solid black;
+    color: white;
+}
+
+.lightTheme #themeToggleButton:hover{
+    background-color: rgb(85, 60, 28);
+    border: 1px solid black;
+    transition: 0.3s;
+    
+}
+
+.lightTheme #themeToggleButton:active{
+    background-color: #222;
+}
+
+.lightTheme nav{
+    background-color: burlywood;
+    border-bottom: 2px solid white;
+}
+
+.lightTheme nav a{
+    color: white;
+}
+
+.lightTheme nav a.active{
+    color: brown;
+    font-weight: bold;
+}
+
+.lightTheme nav a:hover{
+    color: rgb(209, 55, 55);
+}
+
+
+.lightTheme a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.lightTheme a:visited:hover{
+    color: rgb(209, 55, 55);
+}
+
+
+.lightTheme h1{
+    color: white;
+}
+
+
+.lightTheme .skillsBox{
+    background-color: rgb(219, 182, 79);
+    border: 2px solid brown;
+}
+
+.lightTheme .skillTitle{
+    border-bottom: 2px solid white;
+    transition: 0.5s;
+}
+
+.lightTheme .skillsBox .svelte:hover .skillTitle{
+    border-bottom: 2px solid black;
+}
+
+.lightTheme .skillsBox .htmlcssjs:hover .skillTitle{
+    border-bottom: 2px solid black;
+}
+
+.lightTheme .skillsBox .prompting:hover .skillTitle{
+    border-bottom: 2px solid black;
+}
+
+.lightTheme .skillsBox div{
+    border: 2px solid burlywood;
+    background-color: saddlebrown;
+    color: white;
+    
+}
+
+.lightTheme .skillsBox:hover{
+    opacity: 80%;
+}
+
+
+.lightTheme .skillsBox div:hover{
+    background-color: coral;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.lightTheme .skillTitle:hover{
+    border-bottom: 2px solid black;
+    transition: 0.5s;
+}
+
+.lightTheme .introInformation{
+    background-color: rgb(211, 196, 131);
+    border: 2px solid #222;
+    border-radius: 10px;
+    text-align: center;    
+}
+
+.lightTheme .gmailBtn{
+    background-color: rgb(122, 86, 39);
+    color: black;
+}
+
+.lightTheme .gmailBtn:hover{
+    background-color: rgb(85, 60, 28);
+    color: white;
+}
+
+.lightTheme .gitHubBtn{
+    background-color: rgb(122, 86, 39);
+    color: black;
+}
+
+.lightTheme .gitHubBtn:hover{
+    background-color: rgb(85, 60, 28);
+    color: white;
+    transition: 0.3s;
+}
+
+.lightTheme #aboutLink{
+    color: brown;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.lightTheme #aboutLink:hover{
+    color: white;
+    transition: 0.3s;
+}
+
+.lightTheme #aboutLink:visited{
+    color: brown;
+}
+
+.lightTheme #aboutLink:visited:hover{
+    color: coral;
+}
+
+.lightTheme .summary{
+    background-color: rgb(211, 196, 131);
+    border: 2px solid #222;
+}
+
+
+/* About Page */
+
+.lightTheme .introAbout{
+    background-color: rgb(219, 182, 79);
+    border: 2px solid brown;
+}
+
+.lightTheme .skill-set{
+    background-color: rgb(211, 196, 131);
+    border: 2px solid #222;
+}
