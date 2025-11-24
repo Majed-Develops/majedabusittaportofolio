@@ -22,7 +22,7 @@
 
 .lightTheme nav{
     background-color: burlywood;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid brown;
 }
 
 .lightTheme nav a{
@@ -80,7 +80,7 @@
     border: 2px solid burlywood;
     background-color: saddlebrown;
     color: white;
-    
+    cursor: pointer;
 }
 
 .lightTheme .skillsBox:hover{
@@ -90,7 +90,6 @@
 
 .lightTheme .skillsBox div:hover{
     background-color: coral;
-    cursor: pointer;
     border: 2px solid black;
 }
 
@@ -163,4 +162,29 @@
 .lightTheme .skill-set{
     background-color: rgb(211, 196, 131);
     border: 2px solid #222;
+}
+
+/* Project Page */
+
+.lightTheme .project-group{
+    background-color: rgb(219, 182, 79);
+    border: 2px solid brown;
+}
+
+.lightTheme .project-set{
+    border: 2px solid burlywood;
+    background-color: saddlebrown;
+    color: white;
+}
+
+.lightTheme .project-set:hover{
+    background-color: coral;
+    border: 2px solid black;
+}
+
+.lightTheme .introProjects{
+    background-color: rgb(211, 196, 131);
+    border: 2px solid #222;
+    border-radius: 10px;
+    text-align: center; 
 }

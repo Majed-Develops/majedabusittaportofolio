@@ -18,8 +18,7 @@ themeToggleBtn.textContent = savedTheme.replace("Theme", " theme");
 
 themeToggleBtn.addEventListener("click", () => {
    switch(currentTheme){
-        case "lightTheme": currentTheme = "deepTheme"; break;
-        case "deepTheme": currentTheme = "copybookTheme"; break;
+        case "lightTheme": currentTheme = "copybookTheme"; break;
         case "copybookTheme": currentTheme = "darkTheme"; break;
         case "darkTheme": currentTheme = "lightTheme"; break;
     }

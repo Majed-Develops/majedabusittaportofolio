@@ -21,6 +21,11 @@ ul{
     border-radius: 10px;
 }
 
+.skill-title{
+    font-size: larger;
+    font-weight: bold;
+}
+
 .skill-set{
     border-radius: 10px;
     width: 40vw;

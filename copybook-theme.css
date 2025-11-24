@@ -146,11 +146,70 @@
 }
 
 
-.cobybookTheme .projects .project-group{
-    background-color: black !important;
+.copybookTheme  .project-group{
+    background-color: powderblue;
+    border: 2px solid darkslategrey;
 }
 
-.copybookTheme .project-set{
-    background-color: lightgreen;
-    border: 2px solid slateblue;
+
+.copybookTheme #prompt-one{
+    background-color: lightseagreen;
+    border: 2px solid skyblue;
+    transition: 0.5s;
+}
+
+
+.copybookTheme #prompt-one:hover{
+    background-color: lightskyblue;
+    border: 2px solid dodgerblue;
+}
+
+
+.copybookTheme #prompt-two{
+    background-color: deeppink;
+    border: 2px solid palevioletred;
+    transition: 0.5s;
+}
+
+
+.copybookTheme #prompt-two:hover{
+    background-color: violet;
+    border: 2px solid violet;
+}
+
+
+.copybookTheme #prompt-three{
+    background-color: darkslateblue;
+    border: 2px solid skyblue;
+    color: white;
+}
+
+.copybookTheme #prompt-three:hover{
+    background-color: lightskyblue;
+    border: 2px solid blue;
+    color: black;
+}
+
+
+.copybookTheme #html-one{
+    background-color: rgb(209, 135, 38);
+    border: 2px solid brown;
+    transition: 0.5s;
+}
+
+.copybookTheme #html-one:hover{
+    background-color: sienna;
+    border: 2px solid saddlebrown;
+    color: white;
+}
+
+.copybookTheme #html-two{
+    background-color: rgb(199, 199, 17);
+    border: 2px solid green;
+    transition: 0.5s;
+}
+
+.copybookTheme #html-two:hover{
+    background-color: yellowgreen;
+    border: 2px solid goldenrod;
 }

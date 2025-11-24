@@ -69,12 +69,13 @@
 .darkTheme #themeToggleButton{
     background-color: darkslategrey;
     border: 1px solid black;
+    color: white;
 }
 
 .darkTheme #themeToggleButton:hover{
     background-color: grey;
     border: 1px solid black;
-    transition: 0.3s;
+    color: black;
 }
 
 .darkTheme .introInformation{
@@ -152,6 +153,23 @@
 
 /* Projects Page */
 
+.darkTheme .introProjects{
+    background-color: darkslategray;
+}
+
+.darkTheme .project-group-title{
+    color: white;
+}
+
 .darkTheme .project-group{
-    background-color: white;
+    background-color: #333;
+}
+
+.darkTheme .project-set{
+    background-color: darkslategray;
+    border: 2px solid black;
+}
+
+.darkTheme .project-set:hover{
+    background-color: lightslategrey;
 }
