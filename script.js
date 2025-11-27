@@ -7,9 +7,9 @@ const themeToggleBtn = document.getElementById("themeToggleButton");
 
 let currentTheme = savedTheme ? savedTheme : "lightTheme";
 
-document.body.classList = savedTheme;
+document.body.classList = currentTheme;
 
-themeToggleBtn.textContent = savedTheme.replace("Theme", " theme");
+themeToggleBtn.textContent = currentTheme.replace("Theme", " theme");
 
 
 themeToggleBtn.addEventListener("click", () => {
