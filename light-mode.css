@@ -115,6 +115,28 @@
     color: white;
 }
 
+.lightTheme .whatsappBtn{
+    background-color: rgb(122, 86, 39);
+    color: black;
+}
+
+.lightTheme .whatsappBtn:hover{
+    background-color: rgb(85, 60, 28);
+    color: white;
+}
+
+
+.lightTheme .linkedinBtn{
+    background-color: rgb(122, 86, 39);
+    color: black;
+}
+
+.lightTheme .linkedinBtn:hover{
+    background-color: rgb(85, 60, 28);
+    color: white;
+}
+
+
 .lightTheme .gitHubBtn{
     background-color: rgb(122, 86, 39);
     color: black;
