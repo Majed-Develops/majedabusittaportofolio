@@ -1,5 +1,5 @@
 .copybookTheme{
-    background-image: url("/images/lined-wallpaper.jpg");
+    background-image: url("images/lined-wallpaper.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -243,4 +243,9 @@
     background-color: lightskyblue;
     border: 2px solid blue;
     color: black;
+}
+
+.copybookTheme .introProjects{
+    background-color: lightseagreen;
+    border: 2px solid white;
 }
