@@ -31,3 +31,30 @@ ol{
     padding: 10px;
     border-radius: 10px;
 }
+
+
+
+.game-screen{
+    border-radius: 10px;
+    padding:10px;
+}
+
+
+.loading-screen{
+    margin: 50px auto;
+    height: 20px;
+    width: 50%;
+}
+
+.loading-bar{
+    animation: loadingBar 10s infinite;
+    background-color: aqua;
+}
+
+@keyframes loadingBar{
+    0% {width: 0%}
+    25% {width: 50%}
+    50% {width: 100%}
+    75% {width:50%}
+    100% {width:0%}
+}

@@ -88,12 +88,34 @@
     background-color: darkslategrey;
     border: 1px solid black;
     color: white;
+    transition: 0.3s;
 }
 
 .darkTheme .gmailBtn:hover{
     background-color: grey;
     border: 1px solid black;
-    transition: 0.3s;
+}
+
+.darkTheme .whatsappBtn{
+    background-color: darkslategrey;
+    border: 1px solid black;
+    color: white;
+}
+
+.darkTheme .whatsappBtn:hover{
+    background-color: grey;
+}
+
+
+.darkTheme .linkedinBtn{
+    background-color: darkslategrey;
+    border: 1px solid black;
+    color: white;
+}
+
+
+.darkTheme .linkedinBtn:hover{
+    background-color: grey;   
 }
 
 .darkTheme .gitHubBtn{
@@ -190,4 +212,13 @@
 
 .darkTheme .gibberish{
     background-color: lightslategray;
+}
+
+
+.darkTheme .loading-screen{
+    border: 2px solid lightseagreen;
+}
+
+.darkTheme .laoding-bar{
+    background-color: grey;
 }
