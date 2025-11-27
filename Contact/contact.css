@@ -1,0 +1,33 @@
+.contact-method{
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+li{
+    line-height: 2.5;
+}
+
+ol{
+    line-height: 2.0;
+}
+
+
+.main-page-contact{
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.contact-options{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+
+.gibberish{
+    padding: 10px;
+    border-radius: 10px;
+}

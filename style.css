@@ -146,9 +146,8 @@ h1 {
     position: relative;
     padding: 7px;
     width: 70%;
-    left: 15%;
     padding: 20px;
-    margin: 20px;
+    margin: 20px auto;
     border-radius: 10px;
 }
 
@@ -160,17 +159,12 @@ h1 {
 }
 
 
-.gmailBtn{
-    padding: 0.4rem;
+#phoneBtn{
+    padding: 0.54em;
     border-radius: 10px;
+    text-decoration: none;
     transition: 0.5s;
-    cursor:pointer;
-}
-
-
-svg {
-  width: 24px;
-  height: 24px;
+    cursor: pointer;
 }
 
 .gitHubBtn{
@@ -181,11 +175,37 @@ svg {
     cursor: pointer;
 }
 
+
+.gmailBtn{
+    padding: 0.54em;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.linkedinBtn{
+    padding: 0.54em;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.whatsappBtn{
+    padding: 0.54em;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
 .summary{
     border-radius: 10px;
     position: relative;
     width: 70%;
-    left: 15%;
-    margin: 20px;
+    margin: 20px auto;
     padding: 20px;
 }

@@ -101,8 +101,8 @@
 
 .copybookTheme .gmailBtn{
     background-color: cadetblue;
-    border: 2px solid lightsteelblue;
-    color: white;
+    border: 2px solid black;
+    color: black;
 }
 
 .copybookTheme .gmailBtn:hover{
@@ -111,11 +111,32 @@
 
 .copybookTheme .gitHubBtn{
     background-color: cadetblue;
-    border: 2px solid lightsteelblue;
-    color: white;
+    border: 2px solid black;
+    color: black;
 }
 
 .copybookTheme .gitHubBtn:hover{
+    background-color: steelblue;
+}
+
+.copybookTheme .whatsappBtn{
+    background-color: cadetblue;
+    border: 2px solid black;
+    color: black;
+}
+
+
+.copybookTheme .whatsappBtn:hover{
+    background-color: steelblue;
+}
+
+.copybookTheme .linkedinBtn{
+    background-color: cadetblue;
+    border: 2px solid black;
+    color: black;
+}
+
+.copybookTheme .linkedinBtn:hover{
     background-color: steelblue;
 }
 
@@ -212,4 +233,14 @@
 .copybookTheme #html-two:hover{
     background-color: yellowgreen;
     border: 2px solid goldenrod;
+}
+
+
+
+/* Contact Page */
+
+.copybookTheme .main-page-contact{
+    background-color: lightskyblue;
+    border: 2px solid blue;
+    color: black;
 }

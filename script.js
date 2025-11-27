@@ -12,10 +12,6 @@ document.body.classList = savedTheme;
 themeToggleBtn.textContent = savedTheme.replace("Theme", " theme");
 
 
-
-
-
-
 themeToggleBtn.addEventListener("click", () => {
    switch(currentTheme){
         case "lightTheme": currentTheme = "copybookTheme"; break;

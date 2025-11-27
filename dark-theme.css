@@ -173,3 +173,21 @@
 .darkTheme .project-set:hover{
     background-color: lightslategrey;
 }
+
+
+/* Contact Page */
+
+
+.darkTheme .main-page-contact{
+    background-color: darkslategrey;
+}
+
+
+.darkTheme .contact-options{
+    background-color: lightslategrey;
+}
+
+
+.darkTheme .gibberish{
+    background-color: lightslategray;
+}
