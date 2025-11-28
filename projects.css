@@ -4,6 +4,12 @@
     border-radius: 10px;
 }
 
+.projects{
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
 
 .project-group{
     display: flex;
@@ -54,6 +60,7 @@ transition: 0.5s;
 }
 
 .project-set{
+    display: grid;
     gap: 30px;
     border-radius: 10px;
     width: 30em;

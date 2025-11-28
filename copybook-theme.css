@@ -245,7 +245,13 @@
     color: black;
 }
 
+.copybookTheme .contact-options{
+    background-color: lightsteelblue;
+    border: 2px solid cadetblue;
+}
+
 .copybookTheme .introProjects{
     background-color: lightseagreen;
     border: 2px solid white;
 }
+
