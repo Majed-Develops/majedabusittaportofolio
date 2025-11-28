@@ -23,12 +23,117 @@
     
 }
 
-@media (max-width: 600px) {
-    .skillsBox{
-        padding: 5px;
+@media (max-width: 650px){
+      h1{
+        font-size: 25px;
     }
 
-     
+    #themeToggleButton{
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .skillsBox{
+        padding: 10px;
+        width: 100%;
+        left: 0%;
+    }
+
+    .skillsBox:hover{
+        transform: scale(1);
+    }
+
+    .skillsBox div:hover{
+        transform: scale(1);
+    }
+
+    .skillsBox div{
+        width: 80%;
+    }
+
+    .introInformation{
+        width: 100%;
+    }
+
+    .summary{
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .skillsBox{
+        padding: 10px;
+        width: 100%;
+        left: 0%;
+        display: grid;
+
+    }
+
+    .skillsBox:hover{
+        transform: scale(1);
+    }
+
+    .skillsBox div:hover{
+        transform: scale(1);
+    }
+
+    .skillsBox div{
+        display: inline-block;
+        width: auto;
+    }
+
+    .introInformation{
+        width: 100%;
+    }
+
+    .summary{
+        width: 100%;
+    }
+
+
+    .skillsBox{
+        padding: 5px;
+        
+    }
+
+    .skill-set{
+        width: 100%;
+    }
+
+    .skill-group{
+        margin: auto;
+    }
+
+    li{
+        list-style-position: outside;
+        list-style: none;
+        margin: 0;
+        padding: 0px;
+    }    
+
+    ul{
+        list-style-position: outside;
+    }
+
+    ol{
+        list-style-position: outside;
+    }
+
+    .project-set{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .project-set img{
+        margin: auto;
+    }
+
+    .project-group{
+        width: 100%;
+        padding: 10px;
+        margin: 10px ;
+        align-items: center;
+    }
 }
 
 
