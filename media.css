@@ -1,0 +1,505 @@
+@media (max-width: 1440px){
+    
+
+}
+
+@media (max-width: 1280px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 820px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 720px) {
+    
+}
+
+@media (max-width: 600px) {
+    .skillsBox{
+        padding: 5px;
+    }
+
+     
+}
+
+
+
+
+@media (max-width: 485px) {
+
+    nav{
+        width: 100%;
+    }
+
+
+    header a{
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    #themeToggleButton{
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .skillsBox{
+        padding: 10px;
+        width: 100%;
+        left: 0%;
+    }
+
+    .skillsBox:hover{
+        transform: scale(1);
+    }
+
+    .skillsBox div:hover{
+        transform: scale(1);
+    }
+
+    .skillsBox div{
+        width: 80%;
+    }
+
+    .introInformation{
+        width: 100%;
+    }
+
+    .summary{
+        width: 100%;
+    }
+
+    /* About Page */
+
+    .skill-set{
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    /* Projects Page */
+
+    .projects{
+        margin: 0;
+    }
+
+    .projects-group{
+        padding: 10px;
+        width: 100%;
+    }
+
+    .project-set{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .project-set img{
+        width: 100%;
+    }
+
+    /* Contact Page */
+
+    .loading-screen{
+    margin: 30px auto;
+    width: 60%;
+    }
+}
+
+@media (max-width: 414px) {
+
+    
+    header a{
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    #themeToggleButton{
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .skillsBox{
+        padding: 10px;
+        width: 100%;
+        left: 0%;
+    }
+
+    .skillsBox:hover{
+        transform: scale(1);
+    }
+
+    .skillsBox div:hover{
+        transform: scale(1);
+    }
+
+    .skillsBox div{
+        width: 80%;
+    }
+
+    .introInformation{
+        width: 100%;
+    }
+
+    .summary{
+        width: 100%;
+    }
+
+    /* About Page */
+
+    .skill-set{
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    /* Projects Page */
+
+    .projects{
+        margin: 0;
+    }
+
+    .projects-group{
+        padding: 10px;
+        width: 100%;
+    }
+
+    .project-set{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .project-set img{
+        width: 100%;
+    }
+
+    /* Contact Page */
+
+    .loading-screen{
+    margin: 30px auto;
+    width: 60%;
+    }
+}
+
+@media (max-width: 390px) {
+    header a{
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    #themeToggleButton{
+    padding: 5px;
+    font-size: 10px;
+    }
+
+    .skillsBox{
+        padding: 10px;
+        width: 100%;
+        left: 0%;
+    }
+
+    .skillsBox:hover{
+        transform: scale(1);
+    }
+
+    .skillsBox div:hover{
+        transform: scale(1);
+    }
+
+    .skillsBox div{
+        width: 80%;
+    }
+
+    .introInformation{
+        width: 100%;
+    }
+
+    .summary{
+        width: 100%;
+    }
+
+    /* About Page */
+
+    .skill-set{
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    /* Projects Page */
+
+    .projects{
+        margin: 0;
+    }
+
+    .projects-group{
+        padding: 10px;
+        width: 100%;
+    }
+
+    .project-set{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .project-set img{
+        width: 100%;
+    }
+
+    /* Contact Page */
+
+    .loading-screen{
+    margin: 30px auto;
+    width: 60%;
+    }
+}
+
+@media (max-width: 375px) {
+    header a{
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    #themeToggleButton{
+    padding: 5px;
+    font-size: 10px;
+    }
+
+    .skillsBox{
+        padding: 10px;
+        width: 100%;
+        left: 0%;
+    }
+
+    .skillsBox:hover{
+        transform: scale(1);
+    }
+
+    .skillsBox div:hover{
+        transform: scale(1);
+    }
+
+    .skillsBox div{
+        width: 80%;
+    }
+
+    .introInformation{
+        width: 100%;
+    }
+
+    .summary{
+        width: 100%;
+    }
+
+    /* About Page */
+
+    .skill-set{
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    /* Projects Page */
+
+    .projects{
+        margin: 0;
+    }
+
+    .projects-group{
+        padding: 10px;
+        width: 100%;
+    }
+
+    .project-set{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .project-set img{
+        width: 100%;
+    }
+
+    /* Contact Page */
+
+    .loading-screen{
+    margin: 30px auto;
+    width: 60%;
+    }
+}
+
+@media (max-width: 360px) {
+    header a{
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    #themeToggleButton{
+    padding: 5px;
+    font-size: 10px;
+    }
+
+    .skillsBox{
+        padding: 10px;
+        width: 100%;
+        left: 0%;
+    }
+
+    .skillsBox:hover{
+        transform: scale(1);
+    }
+
+    .skillsBox div:hover{
+        transform: scale(1);
+    }
+
+    .skillsBox div{
+        width: 80%;
+    }
+
+    .introInformation{
+        width: 100%;
+    }
+
+    .summary{
+        width: 100%;
+    }
+
+    /* About Page */
+
+    .skill-set{
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    /* Projects Page */
+
+    .projects{
+        margin: 0;
+    }
+
+    .projects-group{
+        padding: 10px;
+        width: 100%;
+    }
+
+    .project-set{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .project-set img{
+        width: 100%;
+    }
+
+    /* Contact Page */
+
+    .loading-screen{
+    margin: 30px auto;
+    width: 60%;
+    }
+}
+
+@media (max-width: 320px) {
+    header a{
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    .skillsBox{
+        padding: 10px;
+        width: 100%;
+        left: 0%;
+    }
+
+    .skillsBox:hover{
+        transform: scale(1);
+    }
+
+    .skillsBox div:hover{
+        transform: scale(1);
+    }
+
+    .skillsBox div{
+        width: 80%;
+    }
+
+    .introInformation{
+        width: 100%;
+    }
+
+    .summary{
+        width: 100%;
+    }
+
+    #themeToggleButton{
+    padding: 5px;
+    font-size: 10px;
+    }
+
+    /* About Page */
+
+    .skill-set{
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    /* Projects Page */
+
+    .projects{
+        margin: 0;
+    }
+
+    .projects-group{
+        padding: 10px;
+        width: 100%;
+    }
+
+    .project-set{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .project-set img{
+        width: 100%;
+    }
+
+    /* Contact Page */
+
+    .loading-screen{
+    margin: 30px auto;
+    width: 60%;
+    }
+}
