@@ -38,6 +38,7 @@ ul{
 .skill-group{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .aboutLink{
