@@ -116,6 +116,11 @@
         list-style-position: outside;
     }
 
+    .projects{
+        margin: auto;
+        justify-content: center;
+    }
+
     .project-set{
         width: 100%;
         padding: 20px;
@@ -195,7 +200,8 @@
     /* Projects Page */
 
     .projects{
-        margin: 0;
+        margin: auto;
+        justify-content: center;
     }
 
     .projects-group{
@@ -275,7 +281,8 @@
     /* Projects Page */
 
     .projects{
-        margin: 0;
+        margin: auto;
+        justify-content: center;
     }
 
     .projects-group{
@@ -353,7 +360,8 @@
     /* Projects Page */
 
     .projects{
-        margin: 0;
+        margin: auto;
+        justify-content: center;
     }
 
     .projects-group{
@@ -398,6 +406,7 @@
         width: 100%;
         left: 0%;
         text-align: center;
+        justify-content: center;
     }
 
     .skillsBox:hover{
@@ -416,6 +425,7 @@
         width: 100%;
     }
 
+
     .summary{
         width: 100%;
     }
@@ -431,7 +441,8 @@
     /* Projects Page */
 
     .projects{
-        margin: 0;
+        margin: auto;
+        justify-content: 0;
     }
 
     .projects-group{
@@ -476,6 +487,7 @@
         width: 100%;
         left: 0%;
         text-align: center;
+        justify-content: center;
     }
 
     .skillsBox:hover{
@@ -509,7 +521,8 @@
     /* Projects Page */
 
     .projects{
-        margin: 0;
+        margin: auto;
+        justify-content: center;
     }
 
     .projects-group{
@@ -549,6 +562,7 @@
         width: 100%;
         left: 0%;
         text-align: center;
+        justify-content: center;
     }
 
     .skillsBox:hover{
@@ -587,7 +601,8 @@
     /* Projects Page */
 
     .projects{
-        margin: 0;
+        margin: auto;
+        justify-content: center;
     }
 
     .projects-group{
