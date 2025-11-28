@@ -35,6 +35,8 @@ let links = document.querySelectorAll(".headerElements");
 links.forEach(link => {
     if(link.href.includes(location.pathname)){
         link.classList.add("active");
+    }else{
+        link.classList.remove("active");
     }
 });
 
