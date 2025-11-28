@@ -115,6 +115,11 @@
     ol{
         list-style-position: outside;
     }
+    
+    .main-page-projects{
+        margin: auto;
+        justify-content: center;
+    }
 
     .projects{
         margin: auto;
@@ -199,6 +204,11 @@
 
     /* Projects Page */
 
+    .main-page-projects{
+        margin: auto;
+        justify-content: center;
+    }
+
     .projects{
         margin: auto;
         justify-content: center;
@@ -280,6 +290,11 @@
 
     /* Projects Page */
 
+    .main-page-projects{
+        margin: auto;
+        justify-content: center;
+    }
+
     .projects{
         margin: auto;
         justify-content: center;
@@ -358,6 +373,11 @@
     }
 
     /* Projects Page */
+
+    .main-page-projects{
+        margin: auto;
+        justify-content: center;
+    }
 
     .projects{
         margin: auto;
@@ -440,6 +460,11 @@
 
     /* Projects Page */
 
+    .main-page-projects{
+        margin: auto;
+        justify-content: center;
+    }
+
     .projects{
         margin: auto;
         justify-content: 0;
@@ -520,6 +545,11 @@
 
     /* Projects Page */
 
+    .main-page-projects{
+        margin: auto;
+        justify-content: center;
+    }
+
     .projects{
         margin: auto;
         justify-content: center;
@@ -599,6 +629,11 @@
     }
 
     /* Projects Page */
+
+    .main-page-projects{
+        margin: auto;
+        justify-content: center;
+    }
 
     .projects{
         margin: auto;
