@@ -34,9 +34,9 @@
     }
 
     .skillsBox{
+        position: static;
         padding: 10px;
         width: 100%;
-        left: 0%;
         text-align: center;
     }
 
@@ -49,6 +49,7 @@
     }
 
     .skillsBox div{
+        margin: auto;
         width: 80%;
     }
 
@@ -80,6 +81,7 @@
     }
 
     .skillsBox div{
+        margin: auto;
         display: inline-block;
         width: auto;
     }
@@ -183,6 +185,7 @@
     }
 
     .skillsBox div{
+        margin: auto;
         width: 80%;
     }
 
@@ -269,6 +272,7 @@
     }
 
     .skillsBox div{
+        margin: auto;
         width: 80%;
     }
 
@@ -353,6 +357,7 @@
     }
 
     .skillsBox div{
+        margin: auto;
         width: 80%;
     }
 
@@ -438,6 +443,7 @@
     }
 
     .skillsBox div{
+        margin: auto;
         width: 80%;
     }
 
@@ -524,6 +530,7 @@
     }
 
     .skillsBox div{
+        margin: auto;
         width: 80%;
     }
 
@@ -604,6 +611,7 @@
     }
 
     .skillsBox div{
+        margin: auto;
         width: 80%;
     }
 
