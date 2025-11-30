@@ -62,6 +62,10 @@ ol{
     100% {background-color: aqua; width:0%}
 } */
 
+.loading-title{
+    text-align: center;
+    font-weight: bold;
+}
 
 :root {
     --loading-color: white;      /* default theme */
