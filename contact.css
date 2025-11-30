@@ -41,20 +41,56 @@ ol{
 
 
 .loading-screen{
+    position: relative;
     margin: 50px auto;
     height: 20px;
     width: 50%;
 }
 
-.loading-bar{
+/* .loading-bar{
+    position: relative;
+    left: 0%;
     animation: loadingBar 10s infinite;
-    background-color: aqua;
+    height: 100%;
 }
 
 @keyframes loadingBar{
     0% {width: 0%}
-    25% {width: 50%}
-    50% {width: 100%}
-    75% {width:50%}
-    100% {width:0%}
+    25% {background-color: aqua; width: 50%}
+    50% {background-color: aqua; width: 100%}
+    75% {background-color: aqua; width:50%}
+    100% {background-color: aqua; width:0%}
+} */
+
+
+:root {
+    --loading-color: white;      /* default theme */
+}
+
+.darkTheme {
+    --loading-color: aqua;       /* dark theme color */
+}
+
+.lightTheme {
+    --loading-color: goldenrod;      /* light theme bar color */
+    background-color: brown;
+}
+
+.copybookTheme {
+    --loading-color: yellow;        /* copybook theme bar color */
+    background-color: red;
+}
+
+.loading-bar {
+    height: 100%;
+    background-color: var(--loading-color);
+    animation: loadingBar 10s infinite;
+}
+
+@keyframes loadingBar{
+    0% {width: 0%}
+    25% {background-color: var(--loading-color); width: 50%}
+    50% {background-color: var(--loading-color); width: 100%}
+    75% {background-color: var(--loading-color); width: 50%}
+    100% {background-color: var(--loading-color); width: 0%}
 }

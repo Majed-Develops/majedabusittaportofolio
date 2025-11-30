@@ -220,3 +220,8 @@
     background-color: rgb(219, 182, 79);
     border: 2px solid brown;
 }
+
+
+.lightTheme .loading-screen {
+    border: 2px solid brown;
+}
